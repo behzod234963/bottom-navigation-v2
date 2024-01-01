@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         navigationBetweenFragments(HomeFragment())
         setBottomNavigation()
     }
-
+    val int = 1
     private fun setBottomNavigation() {
         binding.bottomNavigationView.setOnItemSelectedListener { item ->
             when(item.itemId){
